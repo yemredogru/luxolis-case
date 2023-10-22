@@ -1,0 +1,30 @@
+.login-button {
+    margin-top: 20px;
+    display: flex;
+  
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding) 123px;
+  
+    background: var(--white);
+  
+    border-radius: 4px;
+  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-size-16);
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: var(--dark-blue);
+  
+    border: var(--border-size-1) solid transparent;
+    outline: none;
+  
+    transition: all 0.5s;
+  }
+  .login-button:hover {
+    cursor: pointer;
+  }
