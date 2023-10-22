@@ -34,10 +34,10 @@ function LoginPage() {
                 toast.success('Success');
                 navigate("/login");
             } else {
-                toast.error('Wrong password!');
+                toast.error('the provided password is wrong!');
             }
         } else {
-            toast.error('Wrong username!');
+            toast.error('the provided username is wrong!');
         }
     }
     const handleUsernameChange = (event) => {
