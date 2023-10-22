@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Login.css'
 import Button from '../../components/button/button';
 import Img from '../../components/img/img';
@@ -53,7 +53,7 @@ function LoginPage() {
     };
     const handlePasswordChange = (event) => {
         const password = event.target.value;
-        if (password.trim() == "") {
+        if (password.trim() === '') {
             setPasswordErrorMessage('');
         }
         else {
